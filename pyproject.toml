@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "pdf-rag"
+version = "0.1.0"
+description = ""
+authors = ["edison-bak <wearelego@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+chromadb = "0.4.24"
+webdriver-manager = "^4.0.1"
+selenium = "^4.22.0"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+notebook = "^7.2.1"
+ipykernel = "^6.29.4"
+torch = {version = "^2.3.1+cu118", source = "torch_cu118"}
+torchvision = {version = "^0.18.1+cu118", source = "torch_cu118"}
+torchaudio = {version = "^2.3.1+cu118", source = "torch_cu118"}
+langsmith = "^0.1.93"
+pdfplumber = "^0.11.2"
+langchain-teddynote = "^0.0.19"
+nbconvert = "^7.16.4"
+langchain = "^0.2.12"
+langchain-community = "^0.2.11"
+langchain-openai = "0.1.19"
+langchain-core = "0.2.28"
+langchain-huggingface = "^0.0.3"
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+
+
+[[tool.poetry.source]]
+name = "torch_cu118"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

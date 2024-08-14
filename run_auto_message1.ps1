@@ -1,0 +1,1 @@
+Start-Process powershell -Verb runAs "C:\\Users\\weare\\pro-ollama\\pdf-rag\\run_auto_message.ps1"

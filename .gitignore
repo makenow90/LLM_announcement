@@ -1,0 +1,12 @@
+# 가상 환경
+.venv/
+
+# VSCode 설정
+.vscode/
+
+# 다운로드된 파일들
+downloads/
+
+# 바이너리 파일
+*.dll
+*.exe

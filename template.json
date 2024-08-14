@@ -1,0 +1,6 @@
+[
+    "Answer the question based only on the following context:\n    {context}\n    Question: {question}\n    Format the answer as follows: \"연구목적 : [answer]\".\n The answer should be no more than 50 characters.",
+    "Answer the question based only on the following context:\n    {context}\n    Question: {question}\n    Format the answer as follows: \"연구분야 : [answer]\".\n ",
+    "Answer the question based only on the following context:\n    {context}\n    Question: {question}\n    Format the answer as follows: \"지원금액 : [answer]\".\n ",
+    "Answer the question based only on the following context:\n    {context}\n    Question: {question}\n    Format the answer as follows: \"공고마감일 : [answer]\".\n "
+]
