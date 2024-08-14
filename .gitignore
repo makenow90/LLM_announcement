@@ -10,3 +10,4 @@ downloads/
 # 바이너리 파일
 *.dll
 *.exe
+.env
