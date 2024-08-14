@@ -1,3 +1,1 @@
-# pdf-rag
-
-This is the pdf-rag project.
+## subject : LLM-based-service-that-extracts-announcement-info-and-sends-messages
